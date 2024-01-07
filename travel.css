@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span {
+    color: blueviolet;
+    text-shadow: 0px 2px 1px black;
+
+}
+.navbar-toggler span{
+    color: blueviolet;
+
+}
+.navbar-nav {
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: blueviolet;
+    color: #fff;
+}
+.navbar form button{
+    background: blueviolet;
+    color: #fff;
+    border: none;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url(/image/heroimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content {
+    text-align: center;
+    padding-top: 250px;
+}
+.home .content h5 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500px;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    font-family: poppins, sans-serif;
+}
+.changecontent::after{
+    content: '';
+    color: blueviolet;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 20s infinite linear;
+    font-family: poppins, sans-serif;
+    padding: 15px;
+}
+@keyframes changetext{
+   0%{content: "Nepal";}
+   10%{content: "India";}
+   20%{content: "China";}
+   30%{content: "Australia";}
+   40%{content: "Thailand";}
+   50%{content: "Canada";}
+   60%{content: "America";}
+   70%{content: "Dubai";}
+   80%{content: "Brazil";}
+   90%{content: "Norway";}
+}
+.home .content p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a {
+    padding: 10px;
+    background: #fff;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    font-family: poppins;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover {
+    background: blueviolet;
+    color: #fff;
+}

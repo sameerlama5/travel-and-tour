@@ -113,6 +113,9 @@
     color: #fff;
 }
 @media(max-width:450px) {
+    .home .content {
+        padding-top: 100px;
+    }
     .home .content h5 {
         font-size: 25px;
     }
@@ -206,7 +209,7 @@
 }
 .packages .card img {
     border-radius: 5px;
-    height: 60vh;
+    height: 40vh;
 }
 .packages .card .card-body {
     background: transparent;

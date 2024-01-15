@@ -1,3 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span {
+    color: blueviolet;
+    text-shadow: 0px 2px 1px black;
+
+}
+.navbar-toggler span{
+    color: blueviolet;
+
+}
+.navbar-nav {
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: blueviolet;
+    color: #fff;
+}
+.navbar form button{
+    background: blueviolet;
+    color: #fff;
+    border: none;
+}
 .main-txt h1 {
     text-align: center;
     text-shadow: 0px 1px 1px black;
